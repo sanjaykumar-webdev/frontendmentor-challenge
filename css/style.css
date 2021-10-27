@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap");
+
+:root {
+  --Softred: hsl(7, 99%, 70%);
+  --Yellow: hsl(51, 100%, 49%);
+  --Darkcyan: hsl(167, 40%, 24%);
+  --Darkblue: hsl(198, 62%, 26%);
+  --Darkcyan: hsl(168, 34%, 41%);
+  --Verydarkblue: hsl(212, 27%, 19%);
+  --Verydarkgrayishblue: hsl(213, 9%, 39%);
+  --grayishblue: hsl(232, 10%, 55%);
+  --Grayishblue: hsl(210, 4%, 67%);
+  --White: hsl(0, 0%, 100%);
+}
+
+* {
+  font-family: "Fraunces", serif;
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+header {
+  display: flex;
+  padding: 1.5rem 2.5rem;
+  justify-content: space-between;
+  width: 100%;
+  height: 100vh;
+  background: url(../images/image-header.jpg);
+  text-align: center;
+  background-size: cover;
+  position: relative;
+  color: var(--White);
+  text-align: center;
+}
+.logo {
+  font-size: 1.5rem;
+}
+
+.navlinks li {
+  display: inline-block;
+  padding: 0 1.3rem;
+  line-height: 1.5rem;
+}
+.navlinks li a {
+  transition: all 0.5s ease 0s;
+  color: var(--White);
+}
+.navlinks li a:hover {
+  transition: all 0.5s ease 0s;
+  color: black;
+  background: var(--White);
+  padding: 0.5rem 1.5rem;
+  border-radius: 1rem;
+}
+.button {
+  background: var(--White);
+  padding: 0.5rem 1.5rem;
+  border-radius: 1rem;
+  color: black !important;
+}
+.home {
+  position: absolute;
+  top: 13rem;
+  right: 26rem;
+  font-size: 2.5rem;
+  color: var(--White);
+}
