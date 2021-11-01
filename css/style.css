@@ -28,7 +28,7 @@
 
 header {
   display: flex;
-  padding: 1.5rem 2.5rem;
+  padding: 2rem 2.9rem;
   justify-content: space-between;
   width: 100%;
   height: 100vh;
@@ -38,15 +38,18 @@ header {
   position: relative;
   color: var(--White);
   text-align: center;
+  font-weight: 900;
 }
 .logo {
-  font-size: 1.5rem;
+  height: 30px;
 }
 
 .navlinks li {
   display: inline-block;
-  padding: 0 1.3rem;
+  padding: 0.4rem 1.3rem;
   line-height: 1.5rem;
+  font-size: medium;
+  font-weight: 700;
 }
 .navlinks li a {
   transition: all 0.5s ease 0s;
@@ -67,8 +70,36 @@ header {
 }
 .home {
   position: absolute;
-  top: 13rem;
-  right: 26rem;
+  top: 14rem;
+  right: 27rem;
   font-size: 2.5rem;
   color: var(--White);
+}
+section {
+  height: 100vh;
+}
+.about .container {
+  display: flex;
+  justify-content: center;
+}
+.about .container .box {
+  width: 100%;
+}
+.about .container .box .content {
+  padding: 10rem 4.5rem;
+}
+.about .container .box .content h3 {
+  margin-bottom: 0.8rem;
+  font-size: 1.8rem;
+}
+.about .container .box .content p {
+  color: var(--Verydarkgrayishblue);
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.about .container .box .content a {
+  color: black;
+  border-bottom: 4px solid var(--Yellow);
+  border-radius: 0.5rem;
 }
